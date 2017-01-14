@@ -112,12 +112,18 @@ Finally, don’t overcomplicate things. This task isn’t as hard as it may seem
 =================
 **How to use**
 
+1) On your terminal , run the command `gem install bundle` (if you don't have bundle already)
+
+2) Once the installation completes, run `bundle`
+
+3) On your terminal, run irb and below is an example of how to use the program
+
+
+**Note:**
+
 Default capacity = 1
 
 To change default capacity, use `Airport.New new_capacity` on line 002
-
-On your terminal, run irb and below is an example of how to use the program
-
 ```
 $ irb
 2.2.3 :001 > airport = Airport.new
